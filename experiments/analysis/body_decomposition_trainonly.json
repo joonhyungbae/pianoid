@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "n_samples": 158,
+    "splits": [
+      "train"
+    ]
+  },
+  "A_motion_variance": {
+    "hands": {
+      "pos_std_mean_m": 0.04668795533148171,
+      "pos_std_std": 0.00823531258737537,
+      "speed_mean_m_per_frame": 0.0024520968362582917,
+      "speed_std": 0.0006775584749323058,
+      "ratio_vs_hands": 1.0
+    },
+    "elbows": {
+      "pos_std_mean_m": 0.03124795138505818,
+      "pos_std_std": 0.006815581907255198,
+      "speed_mean_m_per_frame": 0.001420785142462465,
+      "speed_std": 0.00032058950462309665,
+      "ratio_vs_hands": 0.669
+    },
+    "shoulders": {
+      "pos_std_mean_m": 0.02326146127137391,
+      "pos_std_std": 0.00799126288946722,
+      "speed_mean_m_per_frame": 0.0006493174077138376,
+      "speed_std": 0.00021443947672173609,
+      "ratio_vs_hands": 0.498
+    },
+    "head": {
+      "pos_std_mean_m": 0.03448004887993388,
+      "pos_std_std": 0.010660503985552268,
+      "speed_mean_m_per_frame": 0.0010752154011691955,
+      "speed_std": 0.0003543075376816607,
+      "ratio_vs_hands": 0.739
+    },
+    "neck": {
+      "pos_std_mean_m": 0.022042016672630664,
+      "pos_std_std": 0.009196420243300838,
+      "speed_mean_m_per_frame": 0.0005703679555982846,
+      "speed_std": 0.00020249089424753363,
+      "ratio_vs_hands": 0.472
+    },
+    "chest": {
+      "pos_std_mean_m": 0.015624310255427903,
+      "pos_std_std": 0.007471623588801328,
+      "speed_mean_m_per_frame": 0.00039748242189385633,
+      "speed_std": 0.00013497411731361648,
+      "ratio_vs_hands": 0.335
+    },
+    "pelvis": {
+      "pos_std_mean_m": 0.006606526040660712,
+      "pos_std_std": 0.004575490115804162,
+      "speed_mean_m_per_frame": 0.0002121083968712453,
+      "speed_std": 8.243909603994603e-05,
+      "ratio_vs_hands": 0.142
+    },
+    "legs": {
+      "pos_std_mean_m": 0.02436992757374574,
+      "pos_std_std": 0.028339782310286984,
+      "speed_mean_m_per_frame": 0.0002875525369054691,
+      "speed_std": 9.586702187441281e-05,
+      "ratio_vs_hands": 0.522
+    }
+  },
+  "B_midi_hand_coupling": {
+    "keypress_z_signature": {
+      "keydown_ratio_mean": 0.6065129459665856,
+      "rebound_ratio_mean": 0.5060384614848689,
+      "interpretation": "Fraction of onsets with Z-down before / Z-up after. >0.5 means the keypress signature is present in the data."
+    },
+    "midi_vel_vs_peak_z_downspeed": {
+      "pearson_r_mean": null,
+      "note": "onset_density_per_key in the training cache is not real MIDI velocity (only two values 0.60/0.63 — behaves as a binary sustain flag). Real keystroke-intensity analysis requires the raw MIDI CSV."
+    },
+    "pitch_centroid_vs_hand_x_combined": {
+      "pearson_r_mean": 0.45272693037986755,
+      "pearson_r_std": 0.222852423787117,
+      "interpretation": "Global pitch centroid vs mean of both wrists X. Mixing the two signals dilutes the correlation."
+    },
+    "per_hand_pitch_vs_wrist_x": {
+      "left_hand": {
+        "pearson_r_mean": 0.6180751323699951,
+        "pearson_r_std": 0.2507660388946533,
+        "interpretation": "Left-hand pitch centroid vs left wrist X"
+      },
+      "right_hand": {
+        "pearson_r_mean": 0.5520880818367004,
+        "pearson_r_std": 0.25684791803359985,
+        "interpretation": "Right-hand pitch centroid vs right wrist X"
+      },
+      "interpretation": "Headline metric: per-hand pitch range vs that hand's position. r > 0.7 means MIDI strongly determines spatial hand position."
+    }
+  },
+  "C_hand_backbone_correlation": {
+    "hand_x_vs_C7_x": {
+      "pearson_r_mean": 0.590795143613521,
+      "pearson_r_std": 0.18719496662824953,
+      "interpretation": "Hand X center vs C7 (cervical) X absolute position. Strongest correlation."
+    },
+    "hand_x_vs_T10_x": {
+      "pearson_r_mean": 0.5908194548580088,
+      "pearson_r_std": 0.18256902772945882,
+      "interpretation": "Hand X center vs T10 (thoracic) X absolute position."
+    },
+    "hand_x_vs_spine_lateral_lean": {
+      "pearson_r_mean": 0.5160755238405876,
+      "pearson_r_std": 0.2429189989346108,
+      "interpretation": "Hand X position vs X component of the lateral spine-lean vector (C7-T10)."
+    },
+    "hand_z_vs_spine_forward_lean": {
+      "pearson_r_mean": -0.11193844035291407,
+      "pearson_r_std": 0.18673847309488953,
+      "interpretation": "Hand height vs forward/backward spine lean. Weak correlation."
+    },
+    "hand_speed_vs_spine_speed": {
+      "pearson_r_mean": 0.16280804117669975,
+      "pearson_r_std": 0.0788193268656517,
+      "interpretation": "Hand speed vs spine speed (dynamic coupling)."
+    },
+    "note_on_r077": "The r=-0.77 in the paper draft is not reproduced on this data. The strongest measured value is hand_x vs C7_x ~ +0.60 (positive sign). The hand-height(Z) vs spine-tilt combination is weak at r ~ -0.13. -> The r value in the paper needs to be updated to match measurements."
+  },
+  "D_lower_body_independence": {
+    "hand_x_vs_pelvis_x": {
+      "pearson_r_mean": 0.6325335502624512,
+      "pearson_r_std": 0.15748244524002075,
+      "interpretation": "Hand X position vs pelvis X position (low -> lower body is independent)"
+    },
+    "spine_x_vs_pelvis_x": {
+      "pearson_r_mean": 0.8298608064651489,
+      "pearson_r_std": 0.13061214983463287,
+      "interpretation": "Spine X position vs pelvis X position"
+    },
+    "lower_body_position_range_mm": {
+      "mean": 97.78458383415318,
+      "std": 90.34888209695379,
+      "interpretation": "Mean position range of lower-body joints (mm). Smaller = more static pose."
+    }
+  },
+  "E_elbow_ik_underdetermination": {
+    "swivel_angle_std_rad": {
+      "right_mean": 0.15387501324861655,
+      "left_mean": 0.16839058602337956,
+      "combined_mean": 0.16113279963599805,
+      "combined_degrees": 9.232229360269816,
+      "interpretation": "Swivel-angle std (radians). Large value = elbow not determined by IK alone. >30 degrees implies a learned approach is needed."
+    },
+    "geometry_binning_e2": {
+      "pooled_spread_mm": 36.683612735942006,
+      "within_subject_spread_mm": 23.34586458879287,
+      "interpretation": "pooled: spread within bins after pooling all samples (includes both between- and within-subject variance). within-subject: elbow spread within the same reach bin for the same subject. A large within-subject value implies genuine IK underdetermination, not just subject-to-subject style differences."
+    },
+    "bone_lengths_m": {
+      "upper_arm_right_mean": 0.2979367475343656,
+      "forearm_right_mean": 0.2442909532898589,
+      "upper_arm_left_mean": 0.30864845027651966,
+      "forearm_left_mean": 0.23913858632875395,
+      "upper_arm_right_std": 0.01600203317123065,
+      "forearm_right_std": 0.01313579165803284
+    }
+  },
+  "F_temporal_leads": {
+    "hand_x_vs_spine_lean_x": {
+      "mean_lag_frames": -3.5443037974683542,
+      "mean_lag_ms": -59.1,
+      "std_lag_frames": 14.606914842777813,
+      "mean_peak_corr": 0.535392968436334,
+      "pct_positive_lag": 0.379746835443038,
+      "direction": "spine leads hand (anticipatory: performance intent triggers postural prep first)"
+    },
+    "hand_x_vs_pelvis_x": {
+      "mean_lag_frames": 8.10759493670886,
+      "mean_lag_ms": 135.1,
+      "std_lag_frames": 6.867263603906871,
+      "mean_peak_corr": 0.6438956332140943,
+      "pct_positive_lag": 0.9367088607594937,
+      "direction": "hand leads pelvis"
+    },
+    "pitch_centroid_vs_hand_x": {
+      "mean_lag_frames": -6.677215189873418,
+      "mean_lag_ms": -111.3,
+      "std_lag_frames": 16.3367524573407,
+      "mean_peak_corr": 0.22296393890643362,
+      "pct_positive_lag": 0.31645569620253167,
+      "direction": "hand leads MIDI pitch"
+    },
+    "generative_cascade_note": "The cascade direction (MIDI -> Hand -> Body) in the generative model follows causal information flow. Even when the body moves earlier in time, the underlying cause is the performer's musical plan (MIDI). At generation time, conditioning the body on the hand (which is already conditioned on MIDI) is the natural decomposition."
+  },
+  "G_midi_backbone_direct": {
+    "pitch_centroid_vs_C7_x": {
+      "r_mean": 0.2676529586315155,
+      "r_std": 0.1860317587852478,
+      "interpretation": "r for MIDI pitch centroid predicting backbone (C7) directly. If lower than r(hand_x -> C7_x) = 0.60, hands are a necessary intermediate."
+    },
+    "elbow_x_vs_shoulder_x": {
+      "r_mean": 0.7525014877319336,
+      "r_std": 0.15192455053329468,
+      "interpretation": "Elbow X vs shoulder X (backbone output). High = elbow depends on backbone."
+    },
+    "elbow_x_vs_wrist_x": {
+      "r_mean": 0.9456323385238647,
+      "r_std": 0.03648745268583298,
+      "interpretation": "Elbow X vs wrist X (hand output). High = elbow also depends on the hand stage."
+    },
+    "cascade_necessity_note": "If the elbow depends on both the shoulder (backbone) and the wrist (hand), Stage 3 (ElbowMDM) must come after Stage 1 (HandMDM) and Stage 2 (BackboneMDM). This is a logical necessity, not a design choice."
+  },
+  "H_head_follows_backbone": {
+    "head_x_vs_C7_x": {
+      "r_mean": 0.9322449504574642,
+      "r_std": 0.07079903658987162,
+      "interpretation": "Head X vs neck (C7) X. High = backbone conditioning is enough."
+    },
+    "head_x_vs_pitch": {
+      "r_mean": 0.20045747895300672,
+      "r_std": 0.17858911680832518,
+      "interpretation": "Head X vs MIDI pitch centroid. Low = no MIDI conditioning needed."
+    },
+    "head_x_vs_hand_x": {
+      "r_mean": 0.456319651000579,
+      "r_std": 0.21335149998352324,
+      "interpretation": "Head X vs hand X (reference)."
+    },
+    "interpretation": "If H1 (head vs C7) >> H2 (head vs pitch): head motion is explained by spine motion rather than MIDI, so including it inside BackboneMDM is logically justified."
+  }
+}

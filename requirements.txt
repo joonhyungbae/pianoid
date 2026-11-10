@@ -1,0 +1,32 @@
+# Pianoid: 3D Pianist Body Motion Generation from MIDI
+# Core dependencies
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Video Generation
+moviepy>=1.0.3
+
+# Configuration
+pyyaml>=6.0
+
+# Experiment Tracking
+wandb>=0.15.0
+
+# Optional: MIDI processing
+# mido>=1.2.10
+# pretty_midi>=0.2.10
+
+# Optional: Motion visualization
+# trimesh>=3.21.0
+# pyrender>=0.1.45

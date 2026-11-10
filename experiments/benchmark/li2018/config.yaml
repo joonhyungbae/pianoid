@@ -1,0 +1,66 @@
+# Li2018 "Skeleton Plays Piano" Configuration
+# Reference: Li et al. ISMIR 2018
+
+# Model Architecture
+model:
+  # CNN feature dimensions (original: piano=50, metric=10)
+  piano_feat_dim: 50
+  metric_feat_dim: 10
+  
+  # CNN sliding window size (±1 second at 60fps)
+  cnn_window_size: 120
+  
+  # LSTM configuration (original: hidden=128, layers=2)
+  lstm_hidden: 256  # Increased for 3D output
+  lstm_layers: 2
+  
+  # Whether to use metric structure input
+  use_metric: true
+  
+  # Regularization
+  dropout: 0.1
+
+# Two-Stage Training (following original paper Section 3.3)
+# NOTE: This model uses fixed epoch counts, NOT early stopping based training.
+# The original paper specifies exactly 150 epochs total (30 + 120).
+training:
+  # Stage 1: Joint constraint only (L1 loss) - exactly 30 epochs per paper
+  stage1_epochs: 30
+  
+  # Stage 2: Joint + Limb constraint - exactly 120 epochs per paper
+  stage2_epochs: 120
+  # Total: 150 epochs (as specified in the original Li et al. 2018 paper)
+  
+  # Optimizer (Adam as per paper Section 3.3)
+  optimizer: adam
+  lr: 1e-4
+  weight_decay: 1e-8  # β = 10^-8 in original paper (Eq. 1 & 2)
+  
+  # Limb constraint weight
+  limb_weight: 1.0
+  
+  # Early stopping disabled - paper uses fixed epoch schedule
+  # (patience kept for optional use but not recommended)
+  patience: 999  # Effectively disabled to follow paper's fixed schedule
+  
+  # Gradient clipping
+  grad_clip: 1.0
+
+# Data
+data:
+  cache_dir: MOSA_dataset/training_cache
+  batch_size: 32
+  window_size: 480  # 8 seconds training window
+  num_workers: 4
+
+# Output
+output:
+  checkpoint_dir: study_benchmark/li2018/checkpoints
+  results_dir: study_benchmark/li2018/results
+
+# Original Paper Settings (for reference)
+# - FPS: 30 (ours: 60)
+# - Output: 8 joints × 2D = 16 dim (ours: 26 joints × 3D = 78 dim)
+# - Piano roll: 128 × 60 (ours: 88 × 120)
+# - Metric: 3 × 60 (ours: 3 × 120)
+# - Training: 150 epochs total (30 joint + 120 limb)

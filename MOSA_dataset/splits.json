@@ -1,0 +1,1642 @@
+{
+  "samples": {
+    "train": [
+      {
+        "piece": "ba1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/ba1/yp01/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/ba1/yp01/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/ba1/yp01/t3"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/ba1/yp02/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/ba1/yp02/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/ba1/yp02/t3"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/ba1/yp03/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/ba1/yp03/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/ba1/yp03/t3"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/ba1/yp04/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/ba1/yp04/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/ba1/yp04/t3"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/ba1/yp05/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/ba1/yp05/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/ba1/yp05/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/ba2/yp01/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/ba2/yp01/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/ba2/yp01/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/ba2/yp02/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/ba2/yp02/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/ba2/yp02/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/ba2/yp03/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/ba2/yp03/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/ba2/yp03/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/ba2/yp04/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/ba2/yp04/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/ba2/yp04/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/ba2/yp05/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/ba2/yp05/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/ba2/yp05/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/be1/yp01/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/be1/yp01/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/be1/yp01/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/be1/yp02/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/be1/yp02/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/be1/yp02/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/be1/yp03/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/be1/yp03/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/be1/yp03/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/br1/yp01/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/br1/yp01/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/br1/yp01/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/br1/yp02/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/br1/yp02/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/br1/yp02/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/br1/yp03/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/br1/yp03/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/br1/yp03/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/br1/yp04/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/br1/yp04/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/br1/yp04/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/br1/yp05/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/br1/yp05/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/br1/yp05/t3"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/br2/yp01/t1"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/br2/yp02/t1"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/br2/yp03/t1"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/br2/yp04/t1"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/br2/yp05/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/ch1/yp01/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/ch1/yp01/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/ch1/yp01/t3"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/ch1/yp02/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/ch1/yp02/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/ch1/yp02/t3"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/ch1/yp03/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/ch1/yp03/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/ch1/yp03/t3"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/ch1/yp04/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/ch1/yp04/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/ch1/yp04/t3"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/ch1/yp05/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/ch1/yp05/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/ch1/yp05/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/ch2/yp01/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/ch2/yp01/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/ch2/yp01/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/ch2/yp02/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/ch2/yp02/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/ch2/yp02/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/ch2/yp03/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/ch2/yp03/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/ch2/yp03/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/ch2/yp04/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/ch2/yp04/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/ch2/yp04/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/ch2/yp05/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/ch2/yp05/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/ch2/yp05/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/de1/yp01/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/de1/yp01/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/de1/yp01/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/de1/yp02/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/de1/yp02/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/de1/yp02/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/de1/yp03/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/de1/yp03/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/de1/yp03/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/de1/yp04/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/de1/yp04/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/de1/yp04/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/de1/yp05/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/de1/yp05/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/de1/yp05/t3"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/de2/yp01/t1"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/de2/yp02/t1"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/de2/yp03/t1"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/de2/yp04/t1"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/de2/yp05/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/mo1/yp01/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/mo1/yp01/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/mo1/yp01/t3"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/mo1/yp02/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/mo1/yp02/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/mo1/yp02/t3"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/mo1/yp03/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/mo1/yp03/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/mo1/yp03/t3"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/mo1/yp04/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/mo1/yp04/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/mo1/yp04/t3"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/mo1/yp05/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/mo1/yp05/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/mo1/yp05/t3"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/mo2/yp01/t1"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/mo2/yp02/t1"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/mo2/yp03/t1"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/mo2/yp04/t1"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/mo2/yp05/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/mo3/yp01/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/mo3/yp02/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/mo3/yp03/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/mo3/yp04/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/mo3/yp05/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/mo4/yp01/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/mo4/yp01/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/mo4/yp01/t3"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/mo4/yp02/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/mo4/yp02/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/mo4/yp02/t3"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/mo4/yp03/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/mo4/yp03/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/mo4/yp03/t3"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/mo4/yp04/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/mo4/yp04/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/mo4/yp04/t3"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/mo4/yp05/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/mo4/yp05/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/mo4/yp05/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp01",
+        "trial": "t1",
+        "path": "yp/tc1/yp01/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp01",
+        "trial": "t2",
+        "path": "yp/tc1/yp01/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp01",
+        "trial": "t3",
+        "path": "yp/tc1/yp01/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp02",
+        "trial": "t1",
+        "path": "yp/tc1/yp02/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp02",
+        "trial": "t2",
+        "path": "yp/tc1/yp02/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp02",
+        "trial": "t3",
+        "path": "yp/tc1/yp02/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp03",
+        "trial": "t1",
+        "path": "yp/tc1/yp03/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp03",
+        "trial": "t2",
+        "path": "yp/tc1/yp03/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp03",
+        "trial": "t3",
+        "path": "yp/tc1/yp03/t3"
+      }
+    ],
+    "val": [
+      {
+        "piece": "ba1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/ba1/yp06/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/ba1/yp06/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/ba1/yp06/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/ba2/yp06/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/ba2/yp06/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/ba2/yp06/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/be1/yp06/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/be1/yp06/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/be1/yp06/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/br1/yp06/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/br1/yp06/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/br1/yp06/t3"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/br2/yp06/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/ch1/yp06/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/ch1/yp06/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/ch1/yp06/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/ch2/yp06/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/ch2/yp06/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/ch2/yp06/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/de1/yp06/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/de1/yp06/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/de1/yp06/t3"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/de2/yp06/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/mo1/yp06/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/mo1/yp06/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/mo1/yp06/t3"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/mo2/yp06/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/mo3/yp06/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/mo4/yp06/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/mo4/yp06/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/mo4/yp06/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp06",
+        "trial": "t1",
+        "path": "yp/tc1/yp06/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp06",
+        "trial": "t2",
+        "path": "yp/tc1/yp06/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp06",
+        "trial": "t3",
+        "path": "yp/tc1/yp06/t3"
+      }
+    ],
+    "test": [
+      {
+        "piece": "ba1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/ba1/yp07/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/ba1/yp07/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/ba1/yp07/t3"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/ba1/yp08/t1"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/ba1/yp08/t2"
+      },
+      {
+        "piece": "ba1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/ba1/yp08/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/ba2/yp07/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/ba2/yp07/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/ba2/yp07/t3"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/ba2/yp08/t1"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/ba2/yp08/t2"
+      },
+      {
+        "piece": "ba2",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/ba2/yp08/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/be1/yp04/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/be1/yp04/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/be1/yp04/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/be1/yp05/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/be1/yp05/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/be1/yp05/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/be1/yp07/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/be1/yp07/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/be1/yp07/t3"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/be1/yp08/t1"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/be1/yp08/t2"
+      },
+      {
+        "piece": "be1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/be1/yp08/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/br1/yp07/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/br1/yp07/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/br1/yp07/t3"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/br1/yp08/t1"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/br1/yp08/t2"
+      },
+      {
+        "piece": "br1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/br1/yp08/t3"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/br2/yp07/t1"
+      },
+      {
+        "piece": "br2",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/br2/yp08/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/ch1/yp07/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/ch1/yp07/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/ch1/yp07/t3"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/ch1/yp08/t1"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/ch1/yp08/t2"
+      },
+      {
+        "piece": "ch1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/ch1/yp08/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/ch2/yp07/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/ch2/yp07/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/ch2/yp07/t3"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/ch2/yp08/t1"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/ch2/yp08/t2"
+      },
+      {
+        "piece": "ch2",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/ch2/yp08/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/de1/yp07/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/de1/yp07/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/de1/yp07/t3"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/de1/yp08/t1"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/de1/yp08/t2"
+      },
+      {
+        "piece": "de1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/de1/yp08/t3"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/de2/yp07/t1"
+      },
+      {
+        "piece": "de2",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/de2/yp08/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/mo1/yp07/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/mo1/yp07/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/mo1/yp07/t3"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/mo1/yp08/t1"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/mo1/yp08/t2"
+      },
+      {
+        "piece": "mo1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/mo1/yp08/t3"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/mo2/yp07/t1"
+      },
+      {
+        "piece": "mo2",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/mo2/yp08/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/mo3/yp07/t1"
+      },
+      {
+        "piece": "mo3",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/mo3/yp08/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/mo4/yp07/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/mo4/yp07/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/mo4/yp07/t3"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/mo4/yp08/t1"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/mo4/yp08/t2"
+      },
+      {
+        "piece": "mo4",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/mo4/yp08/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp04",
+        "trial": "t1",
+        "path": "yp/tc1/yp04/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp04",
+        "trial": "t2",
+        "path": "yp/tc1/yp04/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp04",
+        "trial": "t3",
+        "path": "yp/tc1/yp04/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp05",
+        "trial": "t1",
+        "path": "yp/tc1/yp05/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp05",
+        "trial": "t2",
+        "path": "yp/tc1/yp05/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp05",
+        "trial": "t3",
+        "path": "yp/tc1/yp05/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp07",
+        "trial": "t1",
+        "path": "yp/tc1/yp07/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp07",
+        "trial": "t2",
+        "path": "yp/tc1/yp07/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp07",
+        "trial": "t3",
+        "path": "yp/tc1/yp07/t3"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp08",
+        "trial": "t1",
+        "path": "yp/tc1/yp08/t1"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp08",
+        "trial": "t2",
+        "path": "yp/tc1/yp08/t2"
+      },
+      {
+        "piece": "tc1",
+        "performer": "yp08",
+        "trial": "t3",
+        "path": "yp/tc1/yp08/t3"
+      }
+    ]
+  }
+}
