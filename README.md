@@ -17,8 +17,6 @@ Graduate School of Culture Technology, KAIST
 [ISMIR page](https://ismir2026program.ismir.net/poster_287.html) ·
 [Checkpoints](https://github.com/joonhyungbae/pianoid/releases/tag/v1.0.0)
 
-<a href="https://youtu.be/GaFwqai4PsE"><img src="projectPage/public/assets/video.jpg" width="720" alt="Pianoid video"></a>
-
 </div>
 
 Pianoid is a four-stage pipeline that generates 3D, 26-joint pianist motion from symbolic MIDI. The body partition and the placement of diffusion come from a coupling analysis of the [MOSA](https://zenodo.org/records/11393449) corpus. This repository reproduces the ISMIR 2026 paper.
