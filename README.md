@@ -17,7 +17,7 @@ Graduate School of Culture Technology, KAIST
 [ISMIR page](https://ismir2026program.ismir.net/poster_287.html) ·
 [Checkpoints](https://github.com/joonhyungbae/pianoid/releases/tag/v1.0.0)
 
-<a href="https://youtu.be/GaFwqai4PsE"><img src="https://img.youtube.com/vi/GaFwqai4PsE/sddefault.jpg" width="720" alt="Pianoid video"></a>
+<a href="https://youtu.be/GaFwqai4PsE"><img src="projectPage/public/assets/video.jpg" width="720" alt="Pianoid video"></a>
 
 </div>
 
