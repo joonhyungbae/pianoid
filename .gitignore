@@ -1,0 +1,190 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+conda-env/
+.conda/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch
+*.pth
+*.pt
+!requirements.txt
+
+# Data directories (large files)
+# Ignore contents of MOSA_dataset/ but keep split manifests tracked so the
+# paper's 158/34/80 partition is reproducible.
+MOSA_dataset/*
+!MOSA_dataset/splits.json
+!MOSA_dataset/splits.mosa_default.json
+tipiano/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.mp4
+
+# Checkpoints and models
+checkpoints/
+*.ckpt
+*.pth.tar
+*.safetensors
+
+# OSF upload staging area — hosted externally, must NOT be committed
+pianoid_osf_upload/
+
+# Results and outputs
+results/
+generated/
+output/
+wandb/
+
+# Cache directories
+training_cache/
+*.cache
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Perceptual study (relocated to private user/expert-test repos; never re-commit here)
+perceptual_study/
+responses_rows.csv
+deploy.sh
+deploy_*.sh
+web.sh
+web_*.sh
+scripts/deploy/
+
+# Sibling sub-projects tracked in their own private repos
+pianoid_usertest/
+pianoid_experttest/
+
+# projectPage/ is tracked here (source only). Its own .gitignore keeps
+# node_modules/, dist/ and the ~68 MB of showcase clip data out.
+
+# Local paper-build helper (kept out of public mirror)
+paper.sh
+
+# Reference PDFs kept on disk only (vendor/ holds the tracked code)
+refs/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+.prof
+
+# IDEs
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Large media files (optional - uncomment if needed)
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
+# *.pdf
+
+# Keep important files
+!README.md
+!*.md
+!.gitignore
+!requirements.txt
+!environment.yml
+!setup.sh
+.claude/
+pianoid_paper/
+video_maker/
+
+# TMM journal extension (separate, unreleased work)
+Pianoid_TMM_paper/
+scripts/dump_velspec_spd.py
+scripts/eval_velspec_arms.sh
+scripts/make_paired_stats.py
+scripts/metric_validity.py
+scripts/run_baselines_a4.sh
+scripts/run_baselines_a4_remaining.sh
+scripts/run_edge_multiseed.sh
+scripts/run_stage2_velspec.sh
+scripts/spectral_expressiveness.py
+
+# Video recorder shim (recorder lives in video_maker/)
+record.sh
